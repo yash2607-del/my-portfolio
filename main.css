@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90 0;
+}
+
+.firstsection > div {
+  width: 30%;
+}
+
+.left-section {
+  font-size: 2.5rem;
+  color: white;
+  margin: 70;
+}
+.color {
+  color: blueviolet;
+}
+
+.right-section img {
+  width: 90%;
+  height: 70%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 3px;
+  border: 3px solid rgb(122, 25, 25);
+  margin: 70, 150;
+}
+
+#element {
+  color: brown;
+}
+
+.one {
+  height: 1.2px;
+  margin: 40 84;
+}
+
+.Second {
+  max-width: 80vw;
+  margin: 120;
+}
+.about,
+.two {
+  color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  margin: 0 500;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30;
+}
+
+.about-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 30;
+  object-fit: cover;
+  padding: 3px;
+  border: 2px solid yellow;
+}
+
+.about-details {
+  max-width: 600px;
+}
+
+.about-details p {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16;
+  word-spacing: 4px;
+}
+
+.about-details ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.about-details ul li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.about-details ul li strong {
+  display: inline-block;
+  width: 80px;
+  color: white;
+}
+
+.about-details ul li .detail {
+  color: rgb(114, 174, 174);
+  font-weight: bold;
+}
+
+.three {
+  height: 1.2px;
+  margin: 40 84;
+}
+
+.third {
+  max-width: 80vw;
+  margin: 120;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50;
+}
+
+.resume #click-me {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10 15;
+  margin: 40 120;
+  text-align: center;
+  cursor: pointer;
+}
+.resume-para
+{
+  margin-bottom: 100;
+}
+
+.fourth {
+  max-width: 80vw;
+  margin: 120;
+}
+
+.work {
+  color: blueviolet;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 38;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.four {
+  height: 1.2px;
+  margin: 15 80;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.experience-section {
+  background-color: rgb(185, 175, 175, 0.1);
+  flex: 1 1 calc(33.333% - 40px);
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  min-width: 250;
+}
+
+.date {
+  color: bisque;
+  font-size: 28;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.position {
+  font-weight: normal;
+}
+
+.company-name {
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+.brief {
+  margin-bottom: 15;
+  color: grey;
+}
+
+.details {
+  list-style-position: none;
+  padding-left: 0;
+  margin-left: 20;
+  color: rgb(241, 239, 248);
+}
+.details li:before {
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  vertical-align: middle; 
+  content: "\00a0";
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200;
+  margin-bottom:100 ;
+  
+
+}
+
+.contact-me
+{ 
+  color: aliceblue;
+  font-weight: bolder;
+  font-size:42;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.pointing
+{
+  margin-top: 30;
+  color: aliceblue;
+  font-size: 18;
+}
+
+.contact {
+  max-width: 80vw;
+  margin: 120;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  place-items: center;
+
+}
+.icon
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10;
+}
+
+.icon .info
+{
+ font-size: 24;
+ text-align: center;
+ color: aliceblue;
+}
+
+.icon i
+{
+  
+  font-size: 38;
+  margin-bottom: 10;
+  background-color: rgb(46, 43, 43);
+  width: 100;
+  height: 100;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+}
+
+.copy-right
+{
+   min-width: 80vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50;
+   color: blueviolet;
+   font-weight: bold;
+   margin-bottom: 50;
+}
+
+
+
+
+
+
+
+
+
+
+
