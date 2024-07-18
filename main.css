@@ -4,14 +4,17 @@
   padding: 0;
 }
 
-.firstsection {
+
+
+
+#home {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 90 0;
 }
 
-.firstsection > div {
+#home > div {
   width: 30%;
 }
 
@@ -47,7 +50,7 @@
   max-width: 80vw;
   margin: 120;
 }
-.about,
+#about,
 .two {
   color: blueviolet;
   display: flex;
@@ -112,7 +115,7 @@
   font-weight: bold;
 }
 
-.three {
+#resume {
   height: 1.2px;
   margin: 40 84;
 }
@@ -124,7 +127,7 @@
   align-items: center;
 }
 
-.resume {
+.resume-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +135,7 @@
   margin: 50;
 }
 
-.resume #click-me {
+.resume-1 #click-me{
   background-color: blueviolet;
   color: white;
   border: none;
@@ -152,7 +155,7 @@
   margin: 120;
 }
 
-.work {
+#work {
   color: blueviolet;
   display: flex;
   justify-content: center;

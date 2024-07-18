@@ -2,9 +2,9 @@
 
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  font-family: "poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -20,13 +20,11 @@ h1 {
 }
 
 h1 {
-  font-size: 30;
+  font-size: 30px;
   color: antiquewhite;
-  
 }
 
-.Portfolio
-{
+.Portfolio {
   color: blueviolet;
 }
 
@@ -37,7 +35,13 @@ header {
   padding: 5 30;
   background-color: rgb(25, 4, 57);
   color: rgb(162, 157, 215);
-  height: 70;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav_links {
@@ -48,25 +52,17 @@ header {
   display: inline-block;
   padding: 0 20;
   text-decoration: none;
-
 }
 
-.nav_links li a
-{
+.nav_links li a {
   color: aliceblue;
 }
 
-
-
-
-
-
-.nav_links li a:hover
-{
-
+.nav_links li a:hover {
   text-decoration: none;
-  color:rgb(24, 58, 89);
-
+  color: rgb(24, 58, 89);
 }
 
-
+html {
+  scroll-behavior: smooth;
+}

@@ -20,17 +20,19 @@
 
       <nav>
         <ul class="nav_links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About </a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Work Experience</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#work">Work Experience</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
       </nav>
     </header>
 
+   
+    
     <main>
-      <section class="firstsection">
+      <section id="home">
         <div class="left-section">
           Hi, My name is
           <span class="color">Ravi</span>
@@ -44,7 +46,7 @@
       <hr class="one" />
 
       <section class="second">
-        <h1 class="about"><strong>About Me</strong></h1>
+        <h1 id="about"><strong>About Me</strong></h1>
         <hr class="two" />
         <div class="about-container">
           <div class="about-image">
@@ -84,11 +86,11 @@
         </div>
       </section>
 
-      <hr class="three" />
+      <hr id="resume" />
 
       <section class="third">
         <div class="resume-details">
-          <div class="resume">
+          <div class="resume-1">
             <button id="click-me">Download CV</button>
             <p class="resume-para" style="color: rgb(242, 239, 245)">
               General Manager experienced in operations, project management, and
@@ -98,7 +100,7 @@
         </div>
       </section>
       <div>
-        <p class="work">Work Experience</p>
+        <p id="work">Work Experience</p>
       </div>
 
       <hr class="four" />
@@ -227,9 +229,17 @@
         </section>
       </section>
 
+      <div>
+        <p class="education-headline">Education</p>
+        
+      
+      </div>
+
       <section class="Education">
         <div>
-          <p>panjab Technical University</p>
+            <p class="year">2011</p>
+            <p class="stream"></p>
+          <p class="university">panjab Technical University</p>
         </div>
       </section>
 
@@ -239,7 +249,7 @@
         <p class="pointing">Below are the details to reach me!</p>
       </div>
 
-      <section class="contact">
+      <section id="contact">
         <div class="icon-container">
           <div class="icon">
             <i id="location" class="fa-solid fa-location-dot"></i
