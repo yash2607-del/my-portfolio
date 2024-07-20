@@ -313,25 +313,39 @@
 
 .education-section > div {
   width: 30%;
-  height: 40vh;
-}
+  }
 
 .education-details {
   background-color: rgb(89, 87, 87);
   padding: 20 20;
   border-radius: 20;
- 
-
 }
 
-
-.year
-{
-  font-size:28;
+.year {
+  font-size: 22;
   font-weight: bolder;
-  color: rgb(203, 203, 122);
+  color: rgb(205, 205, 47);
   margin-bottom: 10px;
 }
 
+.education-qualification {
+  font-size: 18;
+  color: rgb(223, 222, 222);
+  margin-bottom: 10px;
+}
+
+.university
+{ 
+  font-size: 16;
+  color: rgb(156, 103, 39);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20;
+  font-weight: bold;
+}
+
+.grade
+{
+  font-size: 14px;
+}
 
 
