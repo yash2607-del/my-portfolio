@@ -86,7 +86,7 @@
 
 .about-details p {
   margin-bottom: 20px;
-  color: white;
+  color: rgb(111, 109, 109);
   font-size: 16;
   word-spacing: 4px;
 }
@@ -109,7 +109,7 @@
 }
 
 .about-details ul li .detail {
-  color: rgb(114, 174, 174);
+  color: rgb(133, 141, 141);
   font-weight: bold;
 }
 
@@ -159,12 +159,15 @@
   flex-direction: column;
   align-items: center;
   font-size: 38;
-  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-family: "Poppins", Times, serif;
 }
 
 .four {
   height: 1.2px;
   margin: 15 80;
+  margin-bottom: 50;
+  border: 2px solid rgb(163, 183, 174);
 }
 
 .experience-container {
@@ -218,6 +221,75 @@
   vertical-align: middle;
   content: "\00a0";
 }
+
+.education-heading {
+  min-width: 80vw;
+  margin: 10 0;
+  margin-top: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.five {
+  height: 1.2px;
+  margin: 5 500;
+  margin-bottom: 30;
+  border: 2px solid rgb(57, 93, 156);
+  font-family: "Poppins";
+}
+
+.education-section {
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-section > div {
+  width: 30%;
+}
+
+.education-details {
+  background-color: rgb(28, 26, 26);
+  padding: 20 20;
+  border-radius: 1%;
+  border: none;
+}
+
+.year {
+  font-size: 28;
+  font-weight: bolder;
+  color: rgb(250, 250, 97);
+  margin-bottom: 10px;
+}
+
+.education-qualification {
+  font-size: 20;
+  color: rgb(223, 222, 222);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.university {
+  font-size: 18;
+  color: rgb(156, 103, 39);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20;
+  font-weight: bold;
+}
+
+.grade {
+  font-size: 16px;
+  color: white;
+}
+
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -270,7 +342,7 @@
 .icon i {
   font-size: 38;
   margin-bottom: 10;
-  background-color: rgb(46, 43, 43);
+  background-color: rgb(235, 229, 229);
   width: 100;
   height: 100;
   border-radius: 50%;
@@ -278,6 +350,22 @@
   justify-content: center;
   place-content: center;
   align-items: center;
+}
+
+#location {
+  color: rgba(32, 161, 230);
+}
+
+#phone {
+  color: rgb(46, 158, 70);
+}
+
+#email {
+  color: #ea4335;
+}
+
+#linkedin {
+  color: rgb(10, 102, 194);
 }
 
 .copy-right {
@@ -289,63 +377,7 @@
   padding: 50;
   color: blueviolet;
   font-weight: bold;
-  margin-bottom: 50;
-}
-
-.education-heading {
-  min-width: 80vw;
-  margin: 100 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 36;
-  font-family: "Poppins";
-  font-weight: bold;
-}
-
-.education-section {
-  min-width: 80vw;
-  display: flex;
-  justify-content: center;
-}
-
-.education-section > div {
-  width: 30%;
-  }
-
-.education-details {
-  background-color: rgb(89, 87, 87);
-  padding: 20 20;
-  border-radius: 20;
-}
-
-.year {
-  font-size: 22;
-  font-weight: bolder;
-  color: rgb(205, 205, 47);
-  margin-bottom: 10px;
-}
-
-.education-qualification {
-  font-size: 18;
-  color: rgb(223, 222, 222);
-  margin-bottom: 10px;
-}
-
-.university
-{ 
-  font-size: 16;
-  color: rgb(156, 103, 39);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 20;
-  font-weight: bold;
-}
-
-.grade
-{
-  font-size: 14px;
+  margin: 50 30 20 0;
 }
 
 
