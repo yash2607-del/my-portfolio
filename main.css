@@ -44,8 +44,9 @@
 }
 
 .Second {
-  max-width: 80vw;
+  max-width: 150vw;
   margin: 120;
+  background-color: rgb(10, 12, 13);
 }
 #about,
 .two {
@@ -316,9 +317,20 @@
 }
 
 .education-details {
-  background-color: white;
+  background-color: rgb(89, 87, 87);
   padding: 20 20;
   border-radius: 20;
+ 
+
+}
+
+
+.year
+{
+  font-size:28;
+  font-weight: bolder;
+  color: rgb(203, 203, 122);
+  margin-bottom: 10px;
 }
 
 
