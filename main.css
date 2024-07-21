@@ -157,7 +157,7 @@
 }
 
 #work {
-  color: blueviolet;
+  color: rgb(239, 237, 240);
   display: flex;
   justify-content: center;
   flex-direction: column;
