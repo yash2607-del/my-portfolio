@@ -29,7 +29,7 @@
   height: 70%;
   border-radius: 50%;
   object-fit: cover;
-  padding: 3px;
+  padding: 5px;
   border: 3px solid rgb(122, 25, 25);
   margin: 70, 150;
 }
@@ -70,8 +70,8 @@
 }
 
 .about-image img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin-right: 20px;
   margin-bottom: 30;
@@ -188,14 +188,16 @@
 }
 
 .date {
-  color: bisque;
-  font-size: 28;
+  color: rgb(236, 164, 77);
+  font-size: 32;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .position {
   font-weight: normal;
+  font-size: 20;
+
 }
 
 .company-name {
@@ -209,17 +211,27 @@
 
 .details {
   list-style-position: none;
-  padding-left: 0;
-  margin-left: 20;
+  padding-left: 10px;
+  margin-left: 20px;
   color: rgb(241, 239, 248);
 }
+.details li {
+  position: relative; 
+  padding-left: 0.1em; 
+  margin-bottom: 10px; 
+  line-height: 1.5; 
+}
+
+
 .details li:before {
+  
   color: #333;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  vertical-align: middle;
-  content: "\00a0";
+  position: absolute; 
+  left: 0; 
+  width: 0.1em;
+  text-align: center; 
+  vertical-align: top;
+  line-height: 1.5;
 }
 
 .education-heading {
@@ -361,7 +373,7 @@
 }
 
 #email {
-  color: #ea4335;
+  color:rgb(129, 43, 159);
 }
 
 #linkedin {
