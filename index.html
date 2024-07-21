@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <h1>My <span class="Portfolio">Portfolio</span></h1>
+      <h1>My <span class="Portfolio" >Portfolio</span></h1>
 
       <nav>
         <ul class="nav_links">
@@ -52,15 +52,7 @@
           </div>
           <div class="about-details">
             <p>
-              "As a General Manager since 2022, I bring 17 years of extensive
-              experience overseeing and managing diverse projects. My expertise
-              includes setting up and supervising lab projects across India,
-              contributing to technological advancements and operational
-              efficiency. With a strong command of project management
-              principles, I've led teams to implement innovative solutions,
-              fostering growth and achieving high-impact results. I thrive in
-              dynamic environments, leveraging strategic vision and analytical
-              skills to drive business growth and operational excellence."
+              "As a General Manager since 2022, I bring 17 years of experience in managing and setting up lab projects across India. My role involves overseeing all aspects of operations, from planning and execution to ensuring everything runs smoothly. I focus on improving processes and solving operational challenges to achieve efficient and effective results. My experience includes leading teams, managing resources, and driving growth through practical and impactful solutions."
             </p>
             <ul>
               <li>
@@ -81,12 +73,7 @@
                 <strong>Skills:</strong>
                 <span class="detail"
                   >Lab Operations, Project , Facility and Inventory
-                  Management</span
-                >
-              </li>
-              <li>
-                <strong>Language:</strong>
-                <span class="detail">Hindi,English,Bengali,Oriya</span>
+                  Management</span>
               </li>
             </ul>
           </div>
@@ -121,7 +108,7 @@
           </h4>
 
           <p class="brief">
-            Healthians is India's leading health test at home service offering a
+            <span style="color: white; font-weight: bold;">Healthians</span> is India's leading health test at home service offering a
             wide range of health tests across 250+ cities of India, and
             counting.
           </p>
@@ -154,7 +141,7 @@
           </h4>
 
           <p class="brief">
-            TRUSTlab is a State-of-the-Art Central Clinical Reference and
+            <span style="color: white; font-weight: bold;">TRUSTlab</span> is a State-of-the-Art Central Clinical Reference and
             Genomics Research Laboratory based at Hyderabad.
           </p>
 
@@ -187,7 +174,7 @@
           </h4>
 
           <p class="brief">
-            AMPATH is the only lab in India to bring international standard
+            <span style="color: white; font-weight: bold;">AMPATH </span>  is the only lab in India to bring international standard
             pathology services to ensure accurate, reliable and on-time
             diagnosis.
           </p>
@@ -222,7 +209,7 @@
           </h4>
 
           <p class="brief">
-            Diagno Labs established in the year 2012 by RJ Corp, is uniquely
+            <span style="color: white; font-weight: bold;">Diagno Labs </span>  established in the year 2012 by RJ Corp, is uniquely
             positioned to more effectively support local pathology for enhanced
             patient care
           </p>
@@ -259,16 +246,16 @@
           </h4>
 
           <p class="brief">
-            Oncquest is known for its excellence in Clinical Diagnostics and
+            <span style="color: white; font-weight: bold;">Oncquest</span> is known for its excellence in Clinical Diagnostics and
             forerunner in the molecular diagnostics services across India and
             other countries.
           </p>
 
           <ul class="details">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Manage logistics for dispatching hard copy and digital reports to clients</li>
+            <li>Follow up with IT to resolve CLIMS & IT related issues.</li>
+            <li>Resolved samples query / clients emails and Monitored samples to be reported urgently & updating comments with the Lab.</li>
+            <li>	Ensuring timely submission of closure of non-compliances raised during audits.</li>
           </ul>
         </section>
         <section class="experience-section SRL-lab">
@@ -281,16 +268,16 @@
           </h4>
 
           <p class="brief">
-            "SRL DIAGNOSTICS" is a registered Trademark of Super Referral Lab
+           <span style="color: white; font-weight: bold;"> "SRL DIAGNOSTICS" </span> is a registered Trademark of Super Referral Lab
             Diagnostics, Instituted in 1999 and is a part of a SRL Group
             Company.
           </p>
 
           <ul class="details">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Monitor outsource samples, accessioning tracker and ensured timely accessioning. </li>
+            <li>Working at a renowned pathology lab involves significant responsibility in performing the mentioned techniques and maintaining documentation in compliance with CAP, NABL, ISO 9001:2008, and FDA standards</li>
+            <li>Monitor and maintain documentation and archival records to ensure easy retrieval during sponsor audits.</li>
+            <li>Design and prepare clinical trial manuals, project overviews, CRFs, report formats, and patient ID labels as per investigator and sponsor requirements</li>
           </ul>
         </section>
       </section>
@@ -338,7 +325,7 @@
           <div class="icon">
             <a href="mailto:rsravi_75@yahoo.com">
               <i id="email" class="fas fa-envelope"></i>
-              <!-- Email icon -->
+            
             </a>
             <div class="info">
               <p>Email</p>
@@ -352,13 +339,20 @@
               target="_blank"
             >
               <i id="linkedin" class="fab fa-linkedin"></i>
-              <!-- LinkedIn icon -->
+            
             </a>
             <div class="info">
               <p>LinkedIn</p>
               <p>Your LinkedIn Profile</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="doubt">
+        <div class="query">
+          <span class="docs">Have a Questions? </span>
+          <button id="questions">Click here</button>
         </div>
       </section>
     </main>
@@ -372,6 +366,7 @@
       var typed = new Typed("#element", {
         strings: ["General Manager", "Operation Manager", "Project Manager"],
         typeSpeed: 100,
+        loop: true,
       });
     </script>
 
@@ -381,6 +376,15 @@
           .getElementById("click-me")
           .addEventListener("click", function () {
             window.open("https://online.publuu.com/583500/1310943", "_blank");
+          });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("questions")
+          .addEventListener("click", function () {
+            window.open("https://forms.gle/A14iHXWWxh7SWm3PA", "_blank");
           });
       });
     </script>
