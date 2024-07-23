@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: 02020B;
+  background-color: #02020B;
 }
 
 button,
@@ -21,11 +21,11 @@ h1 {
 
 h1 {
   font-size: 30px;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 .Portfolio {
-  color: rgb(12, 10, 14);
+  color: rgb(0, 0, 0);
 }
 
 header {
@@ -33,7 +33,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 5 30;
-  background-color: rgb(39, 79, 110);
+  background-color: teal;
   color: rgb(43, 34, 140);
   height: 70px;
   position: fixed;
@@ -60,7 +60,8 @@ header {
 
 .nav_links li a:hover {
   text-decoration: none;
-  color: rgb(194, 178, 71);
+  color: #FF6F61  ;
+  
 }
 
 html {
